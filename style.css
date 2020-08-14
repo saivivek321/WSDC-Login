@@ -1,0 +1,118 @@
+body{
+	background:linear-gradient(to right,#85D8CE,#085078);
+}
+.header h1{
+	color: white;
+	font-family: cursive;
+	font-weight:lighter;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.login h1{
+	color: white;
+	font-family: cursive;
+	font-size:30px;
+	text-align: center;
+	padding-left: 25px;
+
+}
+h1{
+	transition: color .1s linear;
+
+}
+h1:hover{
+	color:grey;
+}
+div{
+	
+	display: inline-block;
+
+	
+}
+.name{
+
+}
+.password{
+
+}
+input{
+	margin:0.8% 35%;
+	height: 25px;
+	border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 2px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+background: transparent;
+}
+
+input-placeholder{
+	color: white;
+}
+.submitb{
+	width: 220px;
+	background-color: white;
+	color: grey;
+	height: 35px;
+	position: relative;
+	right: 10px;
+	cursor: pointer;
+}
+
+.header{
+	width:20%;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+.login{
+    
+	width: 500px;
+	position: relative;
+	top: 80px;
+	margin-left: 120px;
+	border-left: 2px solid rgba(0,0,0,.1);
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+button{
+
+	background-color: white;
+	display: inline-block;
+    height: 35px;
+    border-radius: 6px;
+    opacity: 0.6;
+    transition: opacity .1s,background-color .1s;
+    	margin-top: 10px;
+
+}
+.signup{
+margin-left: 145px;
+width: 100px;
+
+}
+.forgot{
+margin-left: 5px;
+width: 150px;
+}
+button:hover{
+	opacity: 1;
+
+	background-color:  #babbbc;
+}
+hr{
+	width: 60%;
+	border-top: 3px solid rgba(0,0,0,.3);
+	border-top-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+.logoimg{
+	transition: opacity .1s linear;
+}
+.logoimg:hover{
+opacity: 0.5;
+}
